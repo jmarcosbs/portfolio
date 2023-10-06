@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Montserrat:wght@400;500;800;900&display=swap');
 html {
     scroll-behavior: smooth !important;
 }
@@ -7,13 +7,13 @@ html {
 }
 body {
     background-color: #181818;
-    font-family: Hack, monospace;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 mark {
     padding:5px;
-    font-family: Hack, monospace;
+    font-family: 'Montserrat', sans-serif;
     color: #d4d4d4;
     font-weight: bold;
     background-color: #474747;
@@ -27,8 +27,8 @@ mark {
     text-shadow: 5px 5px 5px #0e0e0e;
 }
 .container-logo {
-    font-family: 'Courier Prime', monospace;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     margin-top: -5%;
    /* border: 1px #fff solid;*/
     width: 100%;
@@ -54,7 +54,7 @@ mark {
     color: #4F4F4F;
     /* border: 1px #fff solid; */
     text-align: center;
-    font-size: 4vh;
+    font-size: 170%;
     padding-top: 2%;
 }
 .row-4 {
@@ -200,12 +200,13 @@ details[open] summary ~ * {
 
 summary {
     box-shadow: 0px 5px 2px #00000060;
+    font-weight: 800;
 }
 
 .summary-nums{
     grid-area: sidebar;
     font-size: 12px;
-    width: 15px;
+    width: 14px;
     opacity: 0.6;
     line-height: 20px;
     text-align: right;
@@ -227,22 +228,24 @@ summary {
 .summary-content p {
     margin-bottom: -19px !important;
     line-height: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     word-spacing: 4px;
     font-size: 15px;
   }
 .blue{
     font-size: 14px;
     color: #368CD6;
-    font-family: 'Courier Prime', monospace;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    word-spacing: 5px;
 }
 .purple{
     font-size: 14px;
     color: #BB86C0;
-    font-family: 'Courier Prime', monospace;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    word-spacing: 5px;
 }
 .profile-photo {
     background-color:#27aa38;
@@ -274,7 +277,7 @@ summary {
     text-align: center;
     transition: .5s ease;
     padding-left: 10px;
-    font-family: Hack, monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .social-icons a{
@@ -322,14 +325,22 @@ summary {
     background-color: #181818;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.2s;
 }
 
-#python {background-color: #fff;}
+#python {
+    background-color: transparent;
+    border-bottom: 5px #DBC816 solid;
+}
 
-.study-icon:hover {background-image: none; background-color: #7a7a7a !important}
+.study-icon:hover {
+    transition: 0.2s;
+    background-image: none;
+    background-color: #7a7a7a !important}
 
 .study-icon img {
     width: 100%;
+    padding-bottom:5px;
 }
 
 .study-content {
@@ -340,8 +351,8 @@ summary {
 
 .study-content p {
     line-height: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     word-spacing: 4px;
     font-size: 15px;
 }
@@ -424,8 +435,8 @@ summary {
 
 .project-content-inner p {
     line-height: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     word-spacing: 4px;
     font-size: 15px;
 }
@@ -463,7 +474,7 @@ summary {
     font-size: 16px;
     font-weight: bold !important;
     color: #574f09;
-    font-family: Hack, monospace;
+    font-family: 'Montserrat', sans-serif;
     transition: 0.2s;
 }
 
@@ -514,8 +525,8 @@ summary {
     text-align: center;
     width: 100%;
     font-size: 20px;
-    font-family: 'Courier New', monospace !important;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 800;
 }
 
 .tecnologias a {
