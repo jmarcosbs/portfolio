@@ -16,7 +16,7 @@ function voltarcor(id1, id2, id3) {
 }
 
 uninter.addEventListener("click", function() {
-    content.innerHTML = "<h2>Análise e Desenvolvimento de Sistemas - UNINTER</h2><p>Você pode conferir minha grade de disciplinas <a href=\"https://drive.google.com/file/d/1EizNBnqgfxG_5qkus5KD-KdsbFdSjheO/view?usp=sharing\">aqui.</a></p>";
+    content.innerHTML = "<h2>Análise e Desenvolvimento de Sistemas - UNINTER</h2><p>Atualmente estou cursando a primeira fase. Você pode conferir minha grade de disciplinas <a href=\"https://drive.google.com/file/d/1EizNBnqgfxG_5qkus5KD-KdsbFdSjheO/view?usp=sharing\">aqui.</a></p>";
     trocarcor("uninter");
     voltarcor("python", "programacao-do-zero", "santander-bootcamp")
 });
